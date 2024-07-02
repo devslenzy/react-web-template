@@ -10,7 +10,14 @@ yarn
 ## A sample component object
 ```jsx
 export const Example = () => {
-    return <div>Hello, world!</div>  
+    return (
+        <div>
+            <Helmet>
+                <title>Title Name</title>
+            </Helmet>
+            <span>Example!</span>
+        </div>
+    ); 
 };
 ```
 
